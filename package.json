@@ -1,0 +1,24 @@
+{
+    "name": "modulus3-fsm",
+    "version": "1.0.0",
+    "description": "Modulus 3 of binary using Finite State Machine Automation",
+    "keywords": [
+        "Typescript",
+        "FSM FA"
+    ],
+    "author": "Sergey Fedyanin",
+    "type": "module",
+    "scripts": {
+        "build": "tsc",
+        "test:unit": "jest --coverage --no-cache --config ./jest.json"
+    },
+    "dependencies": {
+        "typescript": "^2.9.2"
+    },
+    "devDependencies": {
+        "@types/jest": "^26.0.15",
+        "@types/node": "^14.14.5",
+        "jest": "^26.6.1",
+        "ts-jest": "^26.4.3"
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "module": "commonjs",
+    "outDir": "lib",
+    "rootDir": "src",
+    "strict": false,
+    "skipLibCheck": true,
+    "target": "es2017",
+    "typeRoots": ["/node_modules/@types"],
+    "types": ["@types/node", "@types/jest"],
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["build", "node_modules"]
+}
